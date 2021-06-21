@@ -11,7 +11,7 @@ while row <= line('$')
 		let syn_name = synIDattr(synID(row, col, 1), "name")
 
 		if syn_name == ""
-			let syn_name = "Normal"
+			let syn_name = "NONE"
 		endif
 
 		if current_name != syn_name
